@@ -82,6 +82,6 @@ dkms.conf
 
 # Start Ready-1
 # For MacOS
-.dstore
+.DS_Store
 
 # End Ready-1
