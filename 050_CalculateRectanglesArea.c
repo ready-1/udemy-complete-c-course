@@ -13,16 +13,16 @@
 
 int main (int argc, char *argv[]) {
     // declare some vars
-    long height, width, area;
+    double height, width, area;
     // prompt for some values
     printf("Enter the height of the rectangle: ");
-    scanf("%ld", &height);
+    scanf("%lf", &height);
     printf("Enter the width of the rectangle: ");
-    scanf("%ld", &width);
+    scanf("%lf", &width);
     // calc the area
     area = height * width;
     // print the result
-    printf("The area of a rectangles measuring %ld x %ld is %ld", height, width, area);
+    printf("The area of a rectangles measuring %lf x %lf is %lf", height, width, area);
 
     return EXIT_SUCCESS;
 }
