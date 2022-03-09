@@ -15,15 +15,16 @@ int main (int argc, char *argv[]) {
 
     // travelTime = distance / speed
 
-    float distance, speed, travelTime;
+    int distance, speed;
+    float travelTime;
 
     printf("How far will you travel? ");
-    scanf("%f", &distance);
+    scanf("%i", &distance);
 
     printf("How fast will you drive? ");
-    scanf("%f", &speed);
+    scanf("%i", &speed);
 
-    travelTime = distance / speed;
+    travelTime = (float) distance / speed;
 
     printf("It will take you %0.2f hours to reach your destination.", travelTime);
 
