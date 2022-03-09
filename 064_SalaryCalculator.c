@@ -13,20 +13,20 @@
 
 int main (int argc, char *argv[]) {
 
-    // monthly_pay = hours_per_month * hourly_rate
+    // monthlyPay = hoursPerMonth * hourlyRate
 
-    int hours_per_month;
-    double monthly_pay, hourly_rate;
+    int hoursPerMonth;
+    double monthlyPay, hourlyRate;
 
     printf("How many hours per month do you work? ");
-    scanf("%i", &hours_per_month);
+    scanf("%i", &hoursPerMonth);
 
     printf("What is your hourly rate? ");
-    scanf("%lf", &hourly_rate);
+    scanf("%lf", &hourlyRate);
 
-    monthly_pay = hours_per_month * hourly_rate;
+    monthlyPay = hoursPerMonth * hourlyRate;
 
-    printf("Your gross pay is $%0.2lf", monthly_pay);
+    printf("Your gross pay is $%0.2lf", monthlyPay);
 
 
     return EXIT_SUCCESS;
