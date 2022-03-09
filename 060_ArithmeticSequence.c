@@ -20,7 +20,7 @@ int main (int argc, char *argv[]) {
     printf("Enter the value of n:");
     scanf("%d",&n);
 
-    a_n = a + (d * n);
+    a_n = a + ((n - 1) * d);
     
     printf("The value of a(n) is %d", a_n);
 
